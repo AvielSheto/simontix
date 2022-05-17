@@ -1,0 +1,560 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* header */
+
+
+
+header.header-container{
+    height: 800px;
+    background-image: url('./asstes/background.jpg');
+    background-color: rgb(6, 6, 76 ,5);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+/* nabar */
+
+
+
+header.header-container .nav-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header.header-container .nav-container .nav-list {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header.header-container .nav-container ul {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header-container .nav-container ul li {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    align-content: center;
+}
+
+#home:nth-child(1) {
+    color: rgb(40, 123, 218);
+}
+
+header.header-container .nav-container ul li button {
+    width: 140px;
+    height: 60px;
+    border-radius: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+header.header-container .nav-container ul li button:hover {
+    background-color: rgb(40, 123, 218);
+    color: white;
+}
+
+header.header-container .nav-container ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header.header-container .nav-container ul li a:hover {
+    color: #0693e3;
+}
+
+
+
+/*--- strip --- */
+
+
+
+header.header-container .strip-text {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+header.header-container .strip-text h1{
+    color: white;
+    font-size: 85px;
+
+}
+
+
+header.header-container .strip-text p {
+    color: white;
+    font-size: 35px;   
+    margin-top: 50px;
+}
+
+header.header-container .strip-text button {
+    font-weight: bold;
+    background-color: #0693e3;
+    color: white;
+    width: 28%;
+    height: 69px;
+    border-radius: 9px;
+    border: none;
+    margin-top: 60px;
+}
+
+header.header-container .strip-text button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* icon */
+
+.fa-facebook-messenger {
+    color:rgb(38, 52, 172);
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 220px;
+    font-size: 55px;
+}
+  
+.fa-whatsapp {
+    color:rgb(15, 165, 10);
+    font-size: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 150px;
+}
+
+/* main --- 1---about-us */
+
+main.main-container {
+    background-color: #f2fbfe;
+}
+
+main.main-container .about-us {
+    height: 850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;   
+}
+
+main.main-container .about-us .main-img {
+    width: 40%;
+}
+
+main.main-container .about-us .main-text {
+    height: 650px;
+    width: 40%;
+    margin-right: 60px;
+}
+
+main.main-container .about-us .main-text h1 {
+    font-size: 60px;
+}
+
+main.main-container .about-us .main-text p {
+    width: 95%;
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+
+
+/* main --- 2 ---courses */
+
+
+main.main-container .main-courses {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main.main-container .main-courses h1 {
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+main.main-container .main-courses .courses {
+    width: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-left: 98px;
+}
+
+
+main.main-container .main-courses .cours-box img {
+    width: 95%;
+    height: 383px;
+}
+
+main.main-container .main-courses .cours-box {
+    height: 700px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 19px;
+}
+
+main.main-container .main-courses .cours-box h3,h4 {
+    color: rgb(27, 27, 150);
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 2;
+}
+
+main.main-container .main-courses .cours-box button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    border: 2px solid #0693e3;
+    color: #0693e3;
+    font-weight: bold ;
+    border-radius: 5px;
+    background-color: #f2fbfe;
+}
+
+
+main.main-container .main-courses .cours-box button:hover {
+    background-color: #0693e3;
+    color: white;
+}
+
+/* main --- 3 --- companies */
+
+
+main.main-container .companies {
+    height: 800px;
+    text-align: center;
+}    
+
+main.main-container .companies h1 {
+    margin-top: 150px;
+    font-size: 60px;
+}
+
+main.main-container .companies h2 {
+    font-size: 60px;
+}
+
+main.main-container .companies .companies-group {
+    height: 600px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
+}
+
+main.main-container .companies .companies-group img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/* main --- 4 --- Environment */
+
+
+main.main-container .main-environment {
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main.main-container .main-environment .environment-container {
+    width: 38%;
+}
+
+main.main-container .main-environment .environment-text {
+    width: 90%;
+    height: 280px;
+}
+
+main.main-container .main-environment .environment-plus {
+    height: 330px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+main.main-container .main-environment .environment-plus .plus {
+    height: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+}
+
+
+main.main-container .main-environment .environment-text h1 {
+    text-align: right;
+    font-size: 45px;
+}
+
+main.main-container .main-environment .environment-text h2 {
+    font-size: 25px;
+}
+
+main.main-container .main-environment .environment-text p {
+    font-size: 18px;  
+    margin-bottom: 40px;
+}
+
+
+/*   main --- 5 ---study   */
+
+
+.main-container .main-study {
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f1f0f0;
+}
+
+.main-container .main-study h1 {
+    margin-top: 70px;
+    font-size: 70px;
+}
+
+.main-container .main-study h2 {
+    margin-bottom: 120px;
+    font-size: 70px;
+}
+
+.main-container .main-study .study-icon {
+    height: 200px;
+    width: 40%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.main-container .main-study .study-text {
+    height: 110px;
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    /* margin-left: 35px; */
+}
+
+.main-container .main-study .study-text .study-box{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 35px;
+}
+
+.main-container .main-study .study-text .study-box h3 {
+    color: rgb(47, 47, 154);
+    font-size: 25px;
+}
+
+.main-container .main-study .study-text .study-box p {
+    font-size: 20px;
+}
+
+/* --- main --- 6 --- contact---*/
+
+
+main.main-container .main-contact {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    text-align: left;
+}
+
+main.main-container .main-contact .contact-img {
+    width: 40%;
+}
+
+main.main-container .main-contact .contact-input {
+    height: 700px;
+    width: 40%;
+    background-color: white;
+    color: rgb(42, 42, 136);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    font-size: 20px;
+    padding: 50px;
+}
+
+
+.main-container .main-contact .contact-input input {
+    padding: 20px ;
+    height: 8px;
+    width: 95%;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid rgb(206, 203, 203);
+}
+
+.main-container .main-contact .contact-input input::-webkit-input-placeholder {
+    color: black;
+}
+
+.main-container .main-contact .contact-input select {
+    width: 95%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid rgb(206, 203, 203);
+}
+
+.main-container .main-contact .contact-input button {
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 22px;
+    background-color: #0693e3;
+    border-radius: 5px;
+    border: none;
+}
+
+/* --- footer --- */
+
+footer.footer-container {
+    height: 500px;
+    background-color: #f2fbfe;
+    display: flex;
+
+}
+
+footer.footer-container .footer-lists {
+    height: 250px;
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    font-size: 13px;
+    
+}    
+
+footer.footer-container .footer-lists h2 {
+    color: gray;
+    font-weight: 100;
+}
+
+/* left-list */
+footer.footer-container .footer-lists .left-list {
+    height: 320px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+/* center-list */
+footer.footer-container .footer-lists .center-list {
+    height: 250px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    margin-left: 30px;
+}
+
+footer.footer-container .footer-lists .center-list a {
+    text-decoration: none;
+    color: #0693e3;
+    font-size: 19px; 
+}
+
+footer.footer-container .footer-lists .center-list a:hover {
+    color: #0693e3;
+}
+
+
+footer.footer-container .footer-lists .center-list h1 {
+    margin-bottom: 30px;
+}
+/* right-list */
+
+footer.footer-container .footer-lists .right-list {
+    height: 400px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+    color: gray;
+    margin-left: 180px;
+}
+
+footer.footer-container .footer-lists .right-list p {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+footer.footer-container .footer-lists .right-list .footer-icons {
+    width: 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* copyright */
+
+.footer-copyright{
+    height: 140px;
+    width: 100%;
+    
+    background-color: #f2fbfe;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-copyright a {
+    color: rgb(100, 157, 204);
+}
+
+.footer-copyright p {
+    margin-left: 168px;
+}

@@ -1,0 +1,368 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* header */
+
+
+header.header-container{
+    height: 800px;
+    background-image: url('./asstes/courses_background.jpg');
+    background-color: rgb(10, 10, 83);
+    background-blend-mode: screen;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/* nabar */
+
+
+
+header.header-container .nav-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header.header-container .nav-container .nav-list {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header.header-container .nav-container ul {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header-container .nav-container ul li {
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    align-content: center;
+}
+
+#courses:nth-child(1) {
+    color: rgb(40, 123, 218);
+}
+
+
+header.header-container .nav-container ul li button {
+    width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+}
+
+header.header-container .nav-container ul li button:hover {
+    background-color: rgb(40, 123, 218);
+    color: white;
+}
+
+header.header-container .nav-container ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+header.header-container .nav-container ul li a:hover {
+    color: rgb(40, 123, 218);
+}
+
+
+
+/*--- strip --- */
+
+
+
+header.header-container .strip-text {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+header.header-container .strip-text h1{
+    color: white;
+    font-size: 85px;
+
+}
+
+
+header.header-container .strip-text p {
+    color: white;
+    font-size: 20px;   
+    margin-top: 50px;
+    width: 60%;
+}
+
+/* icon */
+
+.fa-facebook-messenger {
+    color:rgb(38, 52, 172);
+    font-size: 20px;
+    position: fixed;
+    right: 30px;
+    bottom: 220px;
+    font-size: 55px;
+}
+  
+.fa-whatsapp {
+    color:rgb(15, 165, 10);
+    font-size: 60px;
+    position: fixed;
+    right: 30px;
+    bottom: 150px;
+}
+ 
+
+/* main --- 2 ---courses */
+
+
+main.main-container {
+    background-color: #f2fbfe;
+}
+
+
+main.main-container .main-courses {
+    height: 1000px;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main.main-container .main-courses h1 {
+    font-size: 60px;
+    margin-top: 80px;
+}
+
+main.main-container .main-courses .courses {
+    width: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 200px;
+    margin-left: 98px;
+    margin-top: 60px;
+}
+
+
+main.main-container .main-courses .cours-box img {
+    width: 95%;
+    height: 383px;
+}
+
+main.main-container .main-courses .cours-box {
+    height: 700px;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 19px;
+}
+
+main.main-container .main-courses .cours-box h3,h4 {
+    color: rgb(27, 27, 150);
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 2;
+}
+
+main.main-container .main-courses .cours-box button {
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    border: 2px solid #0693e3;
+    color: #0693e3;
+    font-weight: bold ;
+    border-radius: 5px;
+    background-color: #f2fbfe;
+}
+
+
+
+main.main-container .main-courses .cours-box button:hover {
+    background-color: #0693e3;
+    color: white;
+}
+
+/* --- main --- 6 --- contact---*/
+
+main.main-container .main-contact {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+main.main-container .main-contact .contact-input {
+    height: 700px;
+    width: 30%;
+    background-color: white;
+    color: rgb(42, 42, 136);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    font-size: 20px;
+    padding: 50px;
+}
+
+
+.main-container .main-contact .contact-input input {
+    padding: 20px ;
+    height: 8px;
+    width: 90%;
+    font-size: 15px;
+    color: rgb(15, 14, 14);
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid rgb(206, 203, 203);
+}
+
+.main-container .main-contact .contact-input input::-webkit-input-placeholder {
+    color: black;
+}
+
+.main-container .main-contact .contact-input select {
+    width: 98%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-bottom: 4px solid rgb(206, 203, 203);
+}
+
+.main-container .main-contact .contact-input button {
+    width: 100%;
+    height: 60px;
+    color: white;
+    font-size: 22px;
+    background-color: #0693e3;
+    border-radius: 5px;
+    border: none;
+}
+
+/* --- footer --- */
+
+footer.footer-container {
+    height: 500px;
+    background-color: f2fbfe;
+    display: flex;
+
+}
+
+footer.footer-container .footer-lists {
+    height: 90px;
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    font-size: 13px;
+    
+}    
+
+footer.footer-container .footer-lists h2 {
+    color: gray;
+    font-weight: 100;
+}
+
+/* left-list */
+footer.footer-container .footer-lists .left-list {
+    height: 320px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+
+/* center-list */
+footer.footer-container .footer-lists .center-list {
+    height: 250px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    margin-left: 30px;
+}
+
+footer.footer-container .footer-lists .center-list a {
+    text-decoration: none;
+    color: rgb(41, 23, 139);
+    font-size: 19px; 
+}
+
+footer.footer-container .footer-lists .center-list a:hover {
+    color: rgb(74, 143, 221);
+}
+
+
+footer.footer-container .footer-lists .center-list h1 {
+    margin-bottom: 30px;
+}
+
+/* right-list */
+footer.footer-container .footer-lists .right-list {
+    height: 400px;
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+    color: gray;
+    margin-left: 180px;
+}
+
+footer.footer-container .footer-lists .right-list p {
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+footer.footer-container .footer-lists .right-list .footer-icons {
+    width: 150px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* copyright */
+
+.footer-copyright{
+    height: 140px;
+    width: 100%;
+    
+    background-color: f2fbfe;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-copyright a {
+    color: rgb(100, 157, 204);
+}
+
+.footer-copyright p {
+    margin-left: 160px;
+}
